@@ -65,3 +65,16 @@
 // }
 // let rval = outer();
 // rval();
+
+let count = function (){
+  var c=0;
+  
+   c++;
+   console.log(c);
+  
+
+
+}
+count();
+count();
+count();

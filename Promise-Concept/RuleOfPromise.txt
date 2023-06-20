@@ -1,0 +1,8 @@
+Promise-> assurance of a work that could  be completed in future
+ future value inside that promise is determined by thr function that return the promise
+ promise->initial state ->pending,value->undefined
+          final state -> settled
+          resolved-> you have got the future value
+          rejected -> error
+to consume a promise we have two synchronus fxn then and catch . they are used to register cb fxn on that promise
+cb function passed inside then and catch are async
